@@ -1,23 +1,22 @@
 {
-  "name": "semistandard",
-  "description": "All the goodness of `feross/standard` with semicolons sprinkled on top.",
-  "version": "11.0.0",
-  "author": {
-    "email": "flettre@gmail.com",
-    "name": "Dan Flettre",
-    "url": "http://twitter.com/flettre"
-  },
+  "name": "xhstandard",
+  "description": "All the goodness of `Flet/semistandard` with little twists.",
+  "version": "1.0.0",
+  "authors": [
+    "flettre@gmail.com",
+    "hhdiao@siom.ac.cn"
+  ],
   "bin": {
-    "semistandard": "./bin/cmd.js"
+    "xhstandard": "./bin/cmd.js"
   },
   "bugs": {
-    "url": "https://github.com/Flet/semistandard/issues"
+    "url": "https://github.com/xiaohu-developer/xhstandard/issues"
   },
   "dependencies": {
     "eslint": "~3.19.0",
+    "eslint-config-xh": "^1.0.0",
     "eslint-config-semistandard": "^11.0.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-config-standard-jsx": "4.0.1",
     "eslint-plugin-import": "~2.2.0",
     "eslint-plugin-node": "~4.2.2",
     "eslint-plugin-promise": "~3.5.0",
@@ -34,7 +33,7 @@
     "tape": "^4.6.3",
     "xtend": "^4.0.0"
   },
-  "homepage": "https://github.com/Flet/semistandard",
+  "homepage": "https://github.com/xiaohu-developer/xhstandard",
   "keywords": [
     "JavaScript Standard Style",
     "bikeshed",
@@ -66,7 +65,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flet/semistandard.git"
+    "url": "https://github.com/xiaohu-developer/xhstandard.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js"
