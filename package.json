@@ -1,7 +1,7 @@
 {
   "name": "xhstandard",
   "description": "All the goodness of `Flet/semistandard` with little twists.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "authors": [
     "flettre@gmail.com",
     "hhdiao@siom.ac.cn"
@@ -13,10 +13,10 @@
     "url": "https://github.com/xiaohu-developer/xhstandard/issues"
   },
   "dependencies": {
-    "eslint": "~3.19.0",
-    "eslint-config-xh": "^1.0.0",
+    "eslint": "4.19.1",
     "eslint-config-semistandard": "^11.0.0",
     "eslint-config-standard": "^10.2.1",
+    "eslint-config-xh": "^1.0.0",
     "eslint-plugin-import": "~2.2.0",
     "eslint-plugin-node": "~4.2.2",
     "eslint-plugin-promise": "~3.5.0",
